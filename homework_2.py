@@ -17,7 +17,7 @@ class Classmate(Person):
 
     def introduce(self):
         super().introduce()
-        print("Учусь в группе " + self.group_name + ".")
+        print("Являюсь одноклассником Николая. Учусь в группе " + self.group_name + ".")
 
 class Friend(Person):
     def __init__(self, name, birth_date, occupation, higher_education, hobby):
@@ -26,7 +26,7 @@ class Friend(Person):
 
     def introduce(self):
         super().introduce()
-        print("Мое хобби " + self.hobby + ".")
+        print("Являюсь другом Николая. Мое хобби " + self.hobby + ".")
 
 classmate1 = Classmate("Алексей", "12.02.2002", "менеджер по продажам", True, "701")
 classmate2 = Classmate("Дархан", "17.09.2006", "повар", False, "530")
